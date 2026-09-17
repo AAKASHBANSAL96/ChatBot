@@ -1,4 +1,4 @@
-# Azure Bay Hotel Support Bot
+# Hotel Support Bot
 
 Customer-support chatbot demo for hotel bookings, reservation lookups, rooms, dining, activities, and general hotel questions.
 

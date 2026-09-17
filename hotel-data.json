@@ -1,0 +1,28 @@
+{
+  "hotel": {
+    "name": "Azure Bay Hotel", "location": "Candolim Beach, Goa", "phone": "+91 832 555 0198",
+    "checkIn": "3:00 PM", "checkOut": "11:00 AM", "airportTransfer": "$35 each way",
+    "included": ["Breakfast", "High-speed Wi-Fi", "Beach access"],
+    "cancellation": "Free cancellation until 48 hours before check-in."
+  },
+  "rooms": [
+    { "name": "Deluxe King", "capacity": 2, "price": 180, "available": 6, "features": ["King bed", "Garden balcony", "Rain shower"] },
+    { "name": "Ocean Suite", "capacity": 3, "price": 280, "available": 3, "features": ["Ocean view", "Living area", "Private balcony"] },
+    { "name": "Family Villa", "capacity": 5, "price": 420, "available": 2, "features": ["Two bedrooms", "Private pool", "Kitchenette"] }
+  ],
+  "menu": [
+    { "section": "Breakfast", "items": ["Masala omelette - $9", "Tropical fruit bowl - $7", "Goan poi and chai - $5"] },
+    { "section": "All-day dining", "items": ["Goan fish curry - $18", "Vegetable thali - $14", "Wood-fired margherita - $15"] },
+    { "section": "Bar", "items": ["Sunset spritz - $12", "Mango mojito - $9", "Local craft beer - $8"] }
+  ],
+  "activities": [
+    { "name": "Sunrise beach yoga", "time": "Daily, 7:00 AM", "price": "Complimentary", "spots": 8 },
+    { "name": "Spice farm tour", "time": "Tuesday and Friday, 9:30 AM", "price": "$28", "spots": 5 },
+    { "name": "Sunset catamaran cruise", "time": "Daily, 5:30 PM", "price": "$45", "spots": 4 },
+    { "name": "Goan cooking class", "time": "Thursday and Saturday, 4:00 PM", "price": "$32", "spots": 6 }
+  ],
+  "reservations": [
+    { "reference": "AB-284731", "guest": "Aarav Sharma", "room": "Ocean Suite", "checkIn": "18 October 2026", "checkOut": "21 October 2026", "guests": 2, "status": "Confirmed" },
+    { "reference": "AB-514908", "guest": "Priya Patel", "room": "Deluxe King", "checkIn": "12 October 2026", "checkOut": "15 October 2026", "guests": 2, "status": "Confirmed" }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azure Bay Hotel | Booking Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hotel-panel">
+        <p class="eyebrow">AZURE BAY HOTEL</p>
+        <h1>Stay close to the sea.</h1>
+        <p class="intro">A complete hotel support chat for bookings, reservations, dining, activities, and stay questions.</p>
+        <div class="details">
+          <div><span>⌖</span><p><strong>Beachfront, Goa</strong><br />15 minutes from the airport</p></div>
+          <div><span>◷</span><p><strong>Check-in 3 PM</strong><br />Check-out 11 AM</p></div>
+          <div><span>✦</span><p><strong>Included</strong><br />Breakfast & high-speed Wi-Fi</p></div>
+        </div>
+        <p class="policy">Free cancellation up to 48 hours before check-in.</p>
+      </section>
+
+      <section class="chat-panel">
+        <header><div class="avatar">M</div><div><h2>Maya</h2><p><i></i> Booking assistant</p></div><button id="reset" title="Start again">↻</button></header>
+        <div class="chat" id="chat" aria-live="polite"></div>
+        <div class="quick-actions" id="quick-actions"></div>
+        <form id="chat-form"><input id="message" autocomplete="off" placeholder="Write a message..." aria-label="Your message" /><button aria-label="Send message">↑</button></form>
+        <p class="secure">🔒 Your booking details stay private.</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -14,4 +14,4 @@ node server.js
 
 Open `http://localhost:3000`. The API key remains on the server and is never sent to the browser. `.env` is ignored by Git. `hotel-data.json` is the demo database; edit it to change rooms, bookings, menu items, and activities.
 
-For a test reservation, ask for `AB-284731` or `Aarav Sharma`.
+For a test reservation, ask for `AB-284731` or `Aakash Bansal`.
